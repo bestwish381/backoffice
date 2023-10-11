@@ -1,0 +1,190 @@
+.tableTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  min-width: 1000px;
+}
+
+.filterTitle {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  min-width: 1000px;
+  margin-left: 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  /* overflow: hidden; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.table-container {
+  height: 500px; /* Ajusta según tus necesidades */
+  overflow-y: auto;
+}
+
+.input-filter {
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 40px;
+  /* margin-left: 6px; */
+}
+
+.filterPanel {
+  display: flex;
+  align-items: center;
+}
+
+.panel {
+  position: absolute;
+  display: flex;
+  bottom: 62px;
+  left: 0;
+}
+
+.searchIcon {
+  color: #ddd;
+  position: absolute;
+  border-left: 1px solid #ddd;
+  right: 2px;
+}
+
+.table th,
+.table td {
+  font-size: 15px;
+  color: #3f4254;
+  /* font-weight: 600; */
+  padding: 12px 15px;
+}
+
+/* .table th {
+  background-color: #363A41;
+  color: #ffffff;
+} */
+
+.table th {
+  color: #b5b5c3;
+}
+
+.table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* .table tr:last-of-type {
+  border-bottom: 2px solid #34284C;
+} */
+
+.table tr:hover {
+  background-color: #f3f3f3;
+}
+
+.table td a {
+  text-decoration: none;
+  color: #34284c;
+}
+
+.table td a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  /* background-color: #363A41; */
+  border-radius: 5px;
+  background-color: #ecf1f6;
+  color: #7e8299;
+  border: none;
+  padding: 3px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+select {
+  /* background-color: #363A41; */
+  background-color: #ecf1f6;
+  color: #7e8299;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.finishStatus {
+  color: #6993ff;
+  background-color: #e1e9ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 120px;
+}
+
+.sendingStatus {
+  color: #f64e60;
+  background-color: #ffe2e5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 120px;
+}
+
+.reviewStatus {
+  color: #8950fc;
+  background-color: #eee5ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 120px;
+}
+
+.waitingStatus {
+  color: #1bc5bd;
+  background-color: #c9f7f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 120px;
+}
+
+.noneStatus {
+  /* background-color: #50cd89; */
+  color: white;
+  background-color: #1bc5bd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  min-width: 120px;
+}
+
+.pagination button:hover {
+  background-color: #6993ff;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.setPage {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.paid {
+  position: relative;
+}

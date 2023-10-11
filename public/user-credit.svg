@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" fill="none" x="" y="">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M18 10C18 12.7614 15.7614 15 13 15C10.2386 15 8 12.7614 8 10C8 7.23858 10.2386 5 13 5C15.7614 5 18 7.23858 18 10ZM16 10C16 11.6569 14.6569 13 13 13C11.3431 13 10 11.6569 10 10C10 8.34315 11.3431 7 13 7C14.6569 7 16 8.34315 16 10Z"
+        fill="white" />
+    <path
+        d="M13 17C13.7122 17 14.3785 17.0209 15 17.058V19.0618C14.385 19.0225 13.7189 19 13 19C9.48438 19 7.23193 19.5391 6.04691 19.9372C6.37184 22.2337 8.34549 24 10.7317 24H15C15 24.7602 15.2828 25.4544 15.7489 25.9831C15.5902 25.9943 15.4299 26 15.2683 26H10.7317C7.01388 26 4 22.9861 4 19.2683C4 18.876 4.20566 18.5156 4.56615 18.3608C5.65194 17.8945 8.34197 17 13 17Z"
+        fill="white" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M19 16C17.8954 16 17 16.8954 17 18V23C17 24.1046 17.8954 25 19 25H26C27.1046 25 28 24.1046 28 23V18C28 16.8954 27.1046 16 26 16H19ZM26 18H19V19H26V18ZM26 20.5H19V23H26V20.5Z"
+        fill="white" />
+    <!-- <text x="0" y="47" fill="blue" font-size="5px" font-weight="bold"
+        font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Hadi</text>
+    <text x="0" y="52" fill="blue" font-size="5px" font-weight="bold"
+        font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun
+        Project</text> -->
+</svg>
